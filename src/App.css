@@ -1,0 +1,64 @@
+.app {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 40px;
+  background-image: linear-gradient(to top #dfe9f3 0% white 100%);
+}
+
+.title {
+  color: rgb(255, 244, 31);
+  background-color: rgb(4, 4, 80);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+input {
+  padding-left: 5px;
+  font-size: 18px;
+  width: 250px;
+  height: 30px;
+  border: solid 1.5px rgb(4, 4, 80);
+  border-radius: 15px;
+}
+
+table {
+  width: 100px;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+thead {
+  background-color: rgb(4, 4, 80);
+  color: rgb(255, 244, 31);
+  text-align: center;
+}
+
+tbody > tr {
+  text-align: center;
+}
+
+.rank {
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
